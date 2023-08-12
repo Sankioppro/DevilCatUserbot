@@ -1,4 +1,4 @@
-# CatUserbot
+# 𝖣𝖾𝗏𝗂𝗅CatUserbot
 
 A simple Telegram userbot based on Telethon .
 ![catuserbot logo](https://graph.org/file/4860c8e1a5a56d0616b79.png)
