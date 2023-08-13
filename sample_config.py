@@ -171,9 +171,9 @@ class Config(object):
     BADCAT_REPO = os.environ.get("BADCAT_REPO", "https://github.com/Sankioppro/CatPlugins")
     if BADCAT_REPO and not url(BADCAT_REPO):
         BADCAT_REPO = "https://github.com/Sankioppro/CatPlugins"
-    BADCAT_REPOBRANCH = os.environ.get("BADCAT_REPOBRANCH", "badcat")
+    BADCAT_REPOBRANCH = os.environ.get("BADCAT_REPOBRANCH", "main")
     VC_REPO = os.environ.get("VC_REPO", "https://github.com/Sankioppro/CatVCPlayer")
-    VC_REPOBRANCH = os.environ.get("VC_REPOBRANCH", "test")
+    VC_REPOBRANCH = os.environ.get("VC_REPOBRANCH", "main")
 
 
 class Production(Config):
