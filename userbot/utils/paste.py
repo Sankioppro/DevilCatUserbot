@@ -11,7 +11,7 @@ import json
 
 import requests
 
-from ...Config import Config
+from userbot.Config import Config
 from ...core.logger import logging
 
 LOGS = logging.getLogger("CatUserbot")
