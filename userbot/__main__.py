@@ -16,7 +16,7 @@ from userbot import BOTLOG_CHATID, PM_LOGGER_GROUP_ID
 from .Config import Config
 from .core.logger import logging
 from .core.session import catub
-from .utils import (
+from userbot.utils import (
     add_bot_to_logger_group,
     install_externalrepo,
     load_plugins,
